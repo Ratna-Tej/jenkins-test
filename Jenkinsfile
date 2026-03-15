@@ -5,9 +5,9 @@ pipeline {
 
         stage('Clone Stage') {
             steps {
+                
                 echo 'Repository cloned successfully'
-                ,  url: 'https://github.com/Ratna-Tej/jenkins-test.git',
-                    credentialsId: 'github-creds'
+                
             }
         }
 
